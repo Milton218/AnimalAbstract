@@ -6,6 +6,7 @@ public class Main {
         p.comer();
         p.caminar();
         p.sonido();
+        p.dormir();
 
         System.out.println("----------------------------------");
         Anmal g = new Perro("Darzy","doberman");
@@ -13,6 +14,8 @@ public class Main {
         g.comer();
         g.caminar();
         g.sonido();
+        g.dormir();
+        g.despertar();
 
     }
 }

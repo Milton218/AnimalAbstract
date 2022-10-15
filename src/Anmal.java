@@ -21,5 +21,14 @@ public abstract class Anmal {
         System.out.println("esta caminando");
     }
 
+
     public abstract void sonido();
+
+    public void dormir() {
+        System.out.println("esta durmiendo");
+
+    }
+
+    public void despertar() {
+    }
 }
